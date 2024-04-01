@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width" name="viewport">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter:wght@500&amp;display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="jumbotron">
+        <h1 class="jumbotron__title">Neptunus</h1>
+      </div>
+      <nav class="navbar">
+        <button class="navbar__button navbar__button--list" id="navbarListButton">
+          <img
+            alt="List"
+            src="assets/img/list.svg"
+            width="24"
+          >
+        </button>
+        <a class="navbar__brand" href="#">Neptunus</a>
+        <ul class="navbar__nav" id="navbarNav">
+          <button class="navbar__button navbar__button--x" id="navbarXbutton">
+            <img
+              alt="X"
+              src="assets/img/x.svg"
+              width="24"
+            >
+          </button>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Beranda</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Tentang</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Kontak</a>
+          </li>
+        </ul>
+        <button class="navbar__button navbar__button--threedots" id="navbarThreeDotsButton">
+          <img
+            alt="Three Dots"
+            src="assets/img/three-dots.svg"
+            width="24"
+          >
+        </button>
+        <div class="navbar__overlay" id="navbarOverlay"></div>
+      </nav>
+    </header>
+    <main class="main">
+      <aside>
+        <div class="sidebar" id="sidebar">
+          <button class="sidebar__button sidebar__button--x" id="sidebarXbutton">
+            <img
+              alt="X"
+              src="assets/img/x.svg"
+              width="24"
+            >
+          </button>
+          <img
+            alt="Profile"
+            class="profile__image"
+            src="assets/img/profile.jpg"
+            width="128"
+          >
+          <h3 class="profile__title">Fikri Setiawan</h3>
+          <p class="profile__description">
+            fikrisetiawan2006@gmail.com
+          </p>
+        </div>
+        <div class="sidebar__overlay" id="sidebarOverlay"></div>
+      </aside>
+      <div class="content" id="content">
+        <article class="article article--1">
+          <h2 class="article__title">Neptunus adalah planet yang:</p>
+          <p class="article__description">Berwarna biru halus,</p>
+          <p class="article__description"><strong class="article__important">Paling jauh dari Matahari,</strong></p>
+          <p class="article__description">Memiliki hujan berlian,</p>
+          <p class="article__description"><strong class="article__important">Terdiri dari gas, dan</strong></p>
+          <p class="article__description">Memiliki lima cincin</p>
+        </article>
+        <article class="article article--2">
+          <div class="article__text">
+            <h2 class="article__title">Deskripsi</h2>
+            <p class="article__description">
+              Neptunus merupakan planet terjauh (kedelapan) jika ditinjau dari Matahari. Planet ini dinamai dari dewa lautan Romawi.
+            </p>
+            <p class="article__description">
+              Neptunus merupakan planet terbesar keempat berdasarkan diameter (49.530 km) dan terbesar ketiga berdasarkan massa. Massa Neptunus tercatat 17 kali lebih besar daripada Bumi, dan sedikit lebih kecil daripada Uranus.
+            </p>
+            <p class="article__description">
+              Neptunus mengorbit Matahari pada jarak 30,1 sa atau sekitar 4.450 juta km. Periode rotasi planet ini adalah 16,1 jam, sedangkan periode revolusinya adalah 164,8 tahun.
+            </p>
+          </div>
+          <div class="article__illustration">
+            <img
+              alt="Neptunus"
+              class="article__image"
+              src="assets/img/illustration-1.jpg"
+            >
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="copyright">&copy; 2024</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
